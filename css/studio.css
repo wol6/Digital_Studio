@@ -1,0 +1,932 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    overflow: hidden;
+}
+
+/* header of website */
+
+.header{
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.7) 100%)
+    ,url(/img/gd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    margin: -375px 275px;
+}
+.title h1{
+    font-size: 124px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 4px;
+}
+.title p{
+    color: #fff;
+    font-size: 16px;
+}
+.crossIcon{
+    width: 30%;
+    position: relative;
+    top: 130px;
+    left:1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.crossIcon img{
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.crossIcon p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 13px;
+}
+/* navigation */
+.sideBar{
+    width: 4%;
+    height: auto;
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+.sideBar img{
+    width: 40px;
+    padding-bottom: 80px;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* main content page or body part */
+
+.headline{
+    margin: 80px 220px;
+}
+.headline h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: oblique;
+    padding: 1px;
+    color: #222;
+}
+.headline p{
+    padding-top: 18px;
+    font-weight: 600;
+    color: gray;
+}
+.palletBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+.palletBox div{
+    max-width: 200px;
+    padding-right: 12px;
+    margin-right: 25px;
+}
+.palletBox span{
+    color: gainsboro;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.palletBox h4{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+    color: #333
+}
+.palletBox p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+/* main section  */
+.main{
+
+    width: 100%;
+    height: 1200px;
+    background: #333;
+    color: #fff;
+   
+}
+.mainPalletOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    
+}
+
+.fun{
+    height: 300px;
+    position: absolute;
+    top: 950px;
+    left: 250px;
+    
+}
+.fun img{
+  width: 850px;
+  height: 350px;
+
+}
+.mainBox{
+     /* border: 1px solid black; */
+     max-width: 200px;
+     padding-right: 25px;
+     margin: 45px;
+ 
+}
+.mainBox h1{
+    font-size: 85px;
+}
+.mainBox p{
+    font-size: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid gray;
+}
+.mainBox h4{
+    font-size: 10px;
+    margin: 16px 16px;
+}
+
+.mainTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 55px;
+}
+
+.mainPalletTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+.mainPalletTwo img{
+    width: 40px;
+    background: #9e8c8c;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.mainPalletTwo div{
+    /* border: 1px solid wheat; */
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    padding: 25px;
+}
+.mainPalletTwo h4{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.mainPalletTwo p{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+#uiUxBg{
+    background: #111;
+    /* box-shadow: 100px 30px 10px gainsboro; */
+}
+
+/* about section  */
+.about{
+    background: #111;
+    height: auto;
+}
+.aboutDisplayOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    background: rgb(104, 204, 204);
+    border: 1PX solid black;
+    width: 50%;
+    max-width: 315px;
+    height: 310px;
+    position: relative;
+    top: -40px;
+    left: -150px;
+    padding: 60px;
+}
+.message div{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    
+}
+.message img{
+    width: 40px;
+    border-radius: 50%;
+}
+.message p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+.message span{
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+#aboutTitle{
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 438px;
+    font-size: 52px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+} 
+
+.aboutDisplayTwo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.aboutDisplayTwo h1{
+    width: 400px;
+    margin: 10px 120px;
+    padding-left: 50px;
+    font-size: 42px;
+}
+.aboutDisplayTwo p{
+    width: 443px;
+    margin: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    color: gainsboro;
+
+}
+/* profile section */
+
+.teamProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiles {
+    padding-left: 27px;
+    position: relative;
+    top: 80px;
+}
+.profiles img{
+    width: 190px;
+    height: 230px;
+    
+}
+.profiles h4{
+   color: #222;
+
+}
+.profiles p{
+    color: #9e8c8c;
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+
+.partnerDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px 0;
+}
+.partnerDisplay h1{
+    width: 440px;
+    margin: 44px 120px;
+    padding-left: 50px;
+    font-size: 45px;
+}
+.partners{
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    padding: 8px;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin-top: 70px;
+    margin-left: -40px;
+}
+.item{
+    border: 1px solid #f3efef;
+    padding: 2px;
+}
+.item img{
+    width: 90px;
+}
+/* footer section */
+.footer{
+    background: #222;
+}
+.footerTitles{
+    padding: 30px 130px;
+}
+.footerTitles h2{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.footerTitles h4{
+    color: rgb(201, 196, 196);
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+.footerTitles p{
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    width: 80px;
+    border-bottom: 1px solid gray;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: flex-end;
+    width: 18%;
+    position: relative;
+    top: 62px;
+    left: 932px;
+}
+.socialMedia img{
+    width: 25px;
+}
+
+.footerAnnotation{
+    color: #cfc5c5;
+    width: 80%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    margin-left: 125px;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.footerAnnotation span{
+    text-decoration: underline;
+}
+
+/* responsive css starts */
+
+
+@media screen and (max-width:900px) and (min-width:600px)
+{
+    /* header section */
+    .header{
+        width: 100%;
+        height: 350px; 
+    }
+    .title{
+        margin: -375px 124px;
+    }
+    .title h1{
+        font-size: 104px;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    .title p{
+        font-size: 14px;
+    }
+    .crossIcon{
+        width: 30%;
+        position: relative;
+        top: 220px;
+        left:600px;
+    }
+    .crossIcon img{
+        width: 35px;
+    }
+    .crossIcon p{
+        font-size: 12px;
+    }
+    .sideBar{
+        width: 4%;
+        height: auto;
+    
+    }
+    .sideBar img{
+        width: 35px;
+        padding-bottom: 70px;
+    }
+
+    /* main content of website */
+
+    .headline{
+        margin: 70px 210px;
+    }
+    .headline h1{
+        font-size: 30px;
+    }
+    .headline p{
+        padding-top: 16px;
+        font-size: 12px;
+    }
+
+    .palletBox{
+        margin-bottom: 150px;
+    
+    }
+    .palletBox div{
+        max-width: 150px;
+    }
+    .palletBox span{
+        color: gainsboro;
+        font-size: 25px;
+    }
+    .palletBox h4{
+        font-size: 14px;
+    }
+    .palletBox p{
+        /* font-size: 15px;
+        color: gray; */
+    }
+      
+    .fun{
+        top: 870px;
+        left: 90px;
+        
+    }
+    .fun img{
+      width: 600px;
+      height: 250px;
+    
+    }
+
+      .mainPalletOne{
+        display: flex;
+        padding-top: 250px;
+        
+    }
+
+    .mainBox{
+        max-width: 100px;
+        padding-right: 25px;
+        margin: 40px;
+    
+   }
+   .mainBox h1{
+       font-size: 80px;
+       padding-left: 10px;
+   }
+   .mainBox p{
+       /* font-size: 12px; */
+   }
+   .mainBox h4{
+       font-size: 10px;
+       margin: 16px 10px;
+   }
+
+   
+.mainTitle{
+    font-size: 45px;
+    padding-top: 45px;
+}
+
+.mainPalletTwo{
+    display: flex;
+    padding-top: 80px;
+}
+.mainPalletTwo img{
+    width: 38px;
+}
+.mainPalletTwo h4{
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.about{
+    /* height: 2050px; */
+}
+.aboutDisplayOne{
+    display: flex;
+}
+.message{
+    max-width: 265px;
+    height: 290px;
+    top: -40px;
+    left: -60px;
+    padding: 40px;
+}
+.message div{
+    margin-top: 20px;
+    padding: 20px;
+}
+.message img{
+    width: 38px;
+}
+.message p{
+    font-size: 15px;
+}
+.message span{
+    font-size: 11px;
+}
+
+#aboutTitle{
+    max-width: 310px;
+    font-size: 35px;
+} 
+
+
+.aboutDisplayTwo{
+    display: flex;
+}
+.aboutDisplayTwo h1{
+    margin: 10px 30px;
+    padding-left: 30px;
+    font-size: 34px;
+}
+.aboutDisplayTwo p{
+    width: 350px;
+    margin: 30px 0;
+    font-size: 13px;
+}
+
+.teamProfile{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.profiles {
+    padding-left: 27px;
+    top: 80px;
+}
+.profiles img{
+    width: 130px;
+    height: 200px;
+    
+}
+.profiles h4{
+    color: #222;
+
+}
+.profiles p{
+    padding-top: 5px;
+    /* padding-bottom: 30px; */
+}
+
+
+.partnerDisplay{
+    display: flex;
+    flex-direction: column;
+    margin: 110px 0;
+}
+.partnerDisplay h1{
+    width: 370px;
+    margin: 44px 120px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.partners{
+    display: grid;
+    /* grid-template-columns: 200px; */
+    /* padding: 8px; */
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.item{
+    padding: 2px;
+}
+.item img{
+    width: 90px;
+}
+
+.footerTitles{
+    padding: 20px 60px;
+}
+.footerTitles h2{
+    font-size: 22px;
+}
+.footerTitles h4{
+    font-size: 40px;
+}
+.footerTitles p{
+    padding-top: 12px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 80px;
+    border-bottom: 1px solid gray;
+}
+
+.socialMedia{
+    top: 50px;
+    left: 622px;
+}
+.socialMedia img{
+    width: 25px;
+}
+
+.footerAnnotation{  
+    width: 70%;
+    padding: 30px 0px;
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 125px;
+    font-size: 12px;
+
+}
+}
+
+
+@media screen and (max-width:600px)
+{
+    /* header section */
+    .header{
+        width: 100%;
+        height: 320px; 
+    }
+    .title{
+        margin: 65px 95px;
+    }
+    .title h1{
+        font-size: 84px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .crossIcon{
+        width: 30%;
+        position: relative;
+        top: -270px;
+        left:350px;
+    }
+    .crossIcon img{
+        width: 20px;
+    }
+    .crossIcon p{
+        font-size: 10px;
+    }
+    .sideBar{
+        width: 20px;
+        height: 50px;
+    
+    }
+    .sideBar img{
+        width: 25px;
+        padding-bottom: 60px;
+    }
+
+    /* main content of website */
+
+    .headline{
+        margin: 50px 90px;
+    }
+    .headline h1{
+        font-size: 20px;
+    }
+    .headline p{
+        padding-top: 14px;
+        font-size: 12px;
+    }
+
+    .palletBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+    
+    }
+    .palletBox div{
+        max-width: 200px;
+        padding-right: 42px;
+        margin-right: 10px;
+    }
+    .palletBox span{
+        color: gainsboro;
+        font-size: 16px;
+    }
+    .palletBox h4{
+        font-size: 15px;
+        margin-bottom: 8px;
+        color: #333
+    }
+    .palletBox p{
+        font-size: 13px;
+        color: gray;
+    }
+
+    .main{
+        height: 1700px;
+    }
+  
+    
+    .fun{
+        top: 940px;
+        left: 100px;
+        
+    }
+    .fun img{
+      width: 290px;
+      height: 180px;
+    
+    }
+
+      .mainPalletOne{
+        display: flex;
+        flex-direction: column;
+        padding-top: 180px;
+        
+    }
+
+    .mainBox{
+        max-width: 80px;
+        padding-right: 5px;
+        margin: 20px;
+    
+   }
+   .mainBox h1{
+       font-size: 50px;
+       padding-left: 10px;
+   }
+   .mainBox p{
+       font-size: 12px;
+   }
+   .mainBox h4{
+       font-size: 8px;
+       margin: 14px 14px;
+   }
+
+   
+.mainTitle{
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.mainPalletTwo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.mainPalletTwo img{
+    width: 32px;
+}
+.mainPalletTwo h4{
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+.about{
+    height: 2050px;
+}
+.aboutDisplayOne{
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    max-width: 275px;
+    height: 260px;
+    top: -40px;
+    left: -60px;
+    padding: 30px;
+}
+.message div{
+    margin-top: 20px;
+    padding: 10px;
+}
+.message img{
+    width: 35px;
+}
+.message p{
+    font-size: 15px;
+}
+.message span{
+    font-size: 10px;
+}
+
+#aboutTitle{
+    max-width: 298px;
+    font-size: 36px;
+} 
+
+
+.aboutDisplayTwo{
+    display: flex;
+   flex-direction: column;
+}
+.aboutDisplayTwo h1{
+    margin: 60px 120px;
+    padding-left: 50px;
+    font-size: 32px;
+}
+.aboutDisplayTwo p{
+    width: 303px;
+    margin: -10px 0;
+    font-size: 15px;
+}
+
+.teamProfile{
+    display: flex;
+    flex-direction: column;
+}
+.profiles {
+    padding-left: 27px;
+    top: 70px;
+}
+.profiles img{
+    width: 180px;
+    height: 200px;
+    
+}
+.profiles h4{
+   color: #fff;
+
+}
+.profiles p{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+.partnerDisplay{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.partnerDisplay h1{
+    width: 400px;
+    margin: 44px 120px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.partners{
+    display: grid;
+    grid-template-columns: 200px;
+    padding: 8px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.item{
+    padding: 20px;
+}
+.item img{
+    width: 90px;
+}
+
+.footerTitles{
+    padding: 20px 50px;
+}
+.footerTitles h2{
+    font-size: 20px;
+}
+.footerTitles h4{
+    font-size: 30px;
+}
+.footerTitles p{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 80px;
+    border-bottom: 1px solid gray;
+}
+
+.socialMedia{
+    top: 282px;
+    left: 382px;
+}
+.socialMedia img{
+    width: 25px;
+}
+
+.footerAnnotation{
+    width: 60%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    font-size: 12px;
+
+    
+}
+}
